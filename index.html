@@ -1,1347 +1,393 @@
 <!DOCTYPE html>
 <html lang="lv">
 <head>
-<meta name="google-site-verification" content="ONSL5wxpzUSRXozoKSlH7bPaYvHTLznGXY1R0U0ym1U" />
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Plotergriezēji | BRATUS</title>
-<link rel="icon" type="image/png" href="https://cdn.shopify.com/s/files/1/0720/6325/4803/files/Untitleddesign.png?v=1769505279">
-<meta name="description" content="Profesionāli plotergriezēji reklāmai un dizainam. 500g spiediens, ātra izpilde, 18 mēnešu garantija.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="ONSL5wxpzUSRXozoKSlH7bPaYvHTLznGXY1R0U0ym1U">
+<title>Griešanas ploteris (plotergriezējs) 71, 86, 134 cm | Ploteris.lv</title>
+<meta name="description" content="Griešanas ploteri vinilam, termoplēvei un kartonam: 71, 86 un 134 cm platumā, spiediens 10–500 g, 18 mēnešu garantija. Cena no 544,50 € bez PVN.">
+<link rel="canonical" href="https://ploteris.lv/">
+<link rel="alternate" hreflang="lv" href="https://ploteris.lv/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="lv_LV">
+<meta property="og:site_name" content="Ploteris.lv">
+<meta property="og:title" content="Griešanas ploteris (plotergriezējs) 71, 86, 134 cm | Ploteris.lv">
+<meta property="og:description" content="Griešanas ploteri vinilam, termoplēvei un kartonam: 71, 86 un 134 cm platumā, spiediens 10–500 g, 18 mēnešu garantija. Cena no 544,50 € bez PVN.">
+<meta property="og:url" content="https://ploteris.lv/">
+<meta property="og:image" content="https://ploteris.lv/assets/img/og-ploteris.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/img/favicon-48.png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<meta name="theme-color" content="#fffbf5">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-/* ── RESET & ROOT ── */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
-body {  font-family: 'Inter', sans-serif;  background: #fffbf5;  color: #1f1501;  overflow-x: hidden;  -webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale;}
-a { text-decoration: none; color: inherit; }
-img { display: block; }
-ul { list-style: none; }
-
-:root {
-  --bg:      #fffbf5;
-  --ink:     #1f1501;
-  --ink2:    #6b5e4e;
-  --ink3:    #a8977e;
-  --accent:  #e67e22; /* BRATUS oranžais */
-  --accent-dark: #cc6b16; /* Tumšāks oranžais hover efektiem */
-  --border:  #e4d9cc;
-  --surface: #f5ede2;
-  --max:     1200px;
-  --ease:    cubic-bezier(.22,1,.36,1);
-  --gutter:  clamp(20px, 5vw, 72px);
-}
-
-/* ── NAV ── */
-.nav {
-  position: fixed; top: 0; left: 0; right: 0; z-index: 300;
-  height: 64px;
-  display: flex; align-items: center; justify-content: space-between;
-  padding: 0 clamp(20px, 5vw, 60px);
-  background: rgba(255,251,245,0.88);
-  backdrop-filter: blur(20px);
-  border-bottom: 1px solid var(--border);
-  transition: background 0.3s;
-}
-.nav.over-hero {
-  background: rgba(15,10,5,0.35);
-  border-bottom-color: rgba(255,255,255,0.1);
-}
-.nav-logo {
-  display: flex; align-items: center; gap: 12px;
-  flex-shrink: 0;
-}
-.nav-logo img { height: 22px; width: auto; filter: brightness(0); transition: filter 0.3s; }
-.nav.over-hero .nav-logo img { filter: brightness(1) invert(1); }
-.nav-logo-text {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-weight: 400;
-  font-size: 0.95rem;
-  letter-spacing: 0.08em;
-  color: var(--ink);
-  text-transform: uppercase;
-}
-.nav.over-hero .nav-logo-text { color: #fff; }
-.nav-logo-text em {
-  font-style: normal;
-  color: var(--accent);
-  font-weight: 600;
-}
-.nav-links {
-  display: flex; align-items: center; gap: 36px;
-}
-.nav-links a {
-  font-size: 0.78rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--ink2);
-  transition: color 0.2s;
-  font-weight: 500;
-}
-.nav.over-hero .nav-links a { color: rgba(255,255,255,0.65); }
-.nav-links a:hover { color: var(--ink); }
-.nav.over-hero .nav-links a:hover { color: #fff; }
-.nav-cta-wrap {
-  display: flex; align-items: center; gap: 10px; flex-shrink: 0;
-}
-.btn-nav-ghost {
-  padding: 8px 18px;
-  font-size: 0.75rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  border: 1px solid var(--border);
-  color: var(--ink2);
-  transition: all 0.2s;
-  font-weight: 500;
-}
-.nav.over-hero .btn-nav-ghost {
-  border-color: rgba(255,255,255,0.25);
-  color: rgba(255,255,255,0.65);
-}
-.btn-nav-ghost:hover { border-color: var(--ink); color: var(--ink); }
-.btn-nav-accent {
-  padding: 9px 20px;
-  font-size: 0.75rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  background: var(--accent);
-  color: #fff;
-  font-weight: 600;
-  transition: all 0.2s;
-}
-.btn-nav-accent:hover { background: var(--accent-dark); }
-.mobile-menu-btn {
-  display: none;
-  background: none; border: none;
-  cursor: pointer; padding: 4px;
-  color: var(--ink);
-}
-.nav.over-hero .mobile-menu-btn { color: #fff; }
-
-@media (max-width: 860px) {
-  .mobile-menu-btn { display: flex; align-items: center; justify-content: center; }
-  .nav-links {
-    position: absolute; top: 64px; left: 0; right: 0;
-    background: var(--bg);
-    flex-direction: column; gap: 0;
-    max-height: 0; overflow: hidden;
-    transition: max-height 0.4s var(--ease);
-    border-bottom: 0 solid var(--border);
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://ploteris.lv/#org",
+   "name": "SIA Bratus",
+   "url": "https://bratus.lv",
+   "logo": "https://ploteris.lv/assets/img/favicon.png",
+   "email": "sales@bratus.lv",
+   "telephone": "+37126325307",
+   "vatID": "LV40203628316",
+   "taxID": "40203628316",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Pliederu iela 22",
+    "addressLocality": "Ķekava",
+    "addressRegion": "Ķekavas novads",
+    "addressCountry": "LV"
+   },
+   "contactPoint": [
+    {
+     "@type": "ContactPoint",
+     "telephone": "+37126325307",
+     "contactType": "sales",
+     "areaServed": "LV",
+     "availableLanguage": "lv"
+    },
+    {
+     "@type": "ContactPoint",
+     "telephone": "+37124424434",
+     "contactType": "sales",
+     "areaServed": "LV",
+     "availableLanguage": "lv"
+    }
+   ]
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://ploteris.lv/#website",
+   "url": "https://ploteris.lv/",
+   "name": "Ploteris.lv",
+   "inLanguage": "lv",
+   "publisher": {
+    "@id": "https://ploteris.lv/#org"
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Cik maksā griešanas ploteris?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Plotergriezēja 71 cm modelis maksā 544,50 €, 86 cm modelis – 641,30 €, bet 134 cm modelis – 822,80 €. Visas cenas norādītas bez PVN. Salīdzinājums ir lapā Cenas."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Kādus materiālus var griezt ar ploteri?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Vinila plēvi, termoplēvi (HTV jeb Flex plēvi), flokēto plēvi, papīru līdz vidējam biezumam, plānākus kartona veidus un krāsu maskas lāzergravēšanai."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Kāda programmatūra ir vajadzīga?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Programmatūra failu sagatavošanai ir iekļauta komplektā. Ploteris saprot DM/PL un HP/GL komandvalodas un ir saderīgs ar Windows XP, Vista, 7, 8 un 10."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Vai ploteris darbojas ar Mac datoru?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Nē. Saskaņā ar tehnisko specifikāciju Mac netiek atbalstīts, tāpēc ploterim vajadzīgs dators ar Windows."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Kā ploteri pievieno datoram?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ar USB kabeli vai caur COM (RS-232) pieslēgvietu. USB kabelis ir komplektā."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Kāda ir garantija?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Visiem trim modeļiem garantija ir 18 mēneši."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Kā iegādāties ploteri?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Zvaniet +371 26 325 307, rakstiet uz sales@bratus.lv vai pasūtiet internetā bratus.lv."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "ItemList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "url": "https://ploteris.lv/ploteris-71-cm/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "url": "https://ploteris.lv/ploteris-86-cm/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "url": "https://ploteris.lv/ploteris-134-cm/"
+    }
+   ]
   }
-  .nav-links.open { max-height: 280px; border-bottom-width: 1px; }
-  .nav-links a { display: block; padding: 14px 24px; font-size: 0.85rem; }
-  .btn-nav-ghost { display: none; }
+ ]
 }
-@media (max-width: 520px) {
-  .nav { height: 56px; }
-  .nav-links { top: 56px; }
-}
-
-/* ── HERO ── */
-.hero {
-  min-height: 100vh;
-  position: relative;
-  display: flex; flex-direction: column;
-  align-items: flex-start; justify-content: flex-end;
-  padding: 0 clamp(20px, 6vw, 72px) clamp(60px, 8vw, 100px);
-  overflow: hidden;
-}
-@media (max-width: 860px) {
-  .hero {
-    min-height: 100svh;
-    justify-content: center;
-    padding-top: 80px;
-    padding-bottom: clamp(40px, 8vw, 70px);
-  }
-  .hero-scroll { display: none; }
-}
-.hero-bg {
-  position: absolute; inset: 0; z-index: 0;
-  background-image: url('https://bratus.lv/cdn/shop/files/Plotergriezejs.jpg?v=1774516187');
-  background-size: cover;
-  background-position: center;
-}
-.hero-overlay {
-  position: absolute; inset: 0; z-index: 1;
-  background: linear-gradient(
-    160deg,
-    rgba(12,7,3,0.85) 0%,
-    rgba(15,8,4,0.65) 50%,
-    rgba(20,10,5,0.85) 100%
-  );
-}
-.hero-inner {
-  position: relative; z-index: 2;
-  max-width: 800px;
-}
-.hero-eyebrow {
-  display: inline-flex; align-items: center; gap: 10px;
-  margin-bottom: 28px;
-  font-size: 0.7rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,0.6);
-  font-weight: 500;
-}
-.hero-eyebrow-line {
-  display: inline-block;
-  width: 28px; height: 1px;
-  background: var(--accent);
-  opacity: 0.8;
-}
-.hero-pulse {
-  display: inline-flex; align-items: center; gap: 7px;
-  font-size: 0.68rem; letter-spacing: 0.15em; text-transform: uppercase;
-  color: rgba(255,255,255,0.7);
-}
-.pulse-dot {
-  width: 6px; height: 6px; border-radius: 50%;
-  background: var(--accent);
-  box-shadow: 0 0 10px rgba(230, 126, 34, 0.8);
-  animation: pulse 2s ease infinite;
-}
-@keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.5;transform:scale(.85)} }
-
-.hero-h1 {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: clamp(2.8rem, 7vw, 6.2rem);
-  font-weight: 300;
-  line-height: 1.05;
-  letter-spacing: -0.03em;
-  color: #fff;
-  margin-bottom: 24px;
-}
-.hero-h1 em {
-  font-style: italic;
-  font-weight: 300;
-  color: rgba(255,255,255,0.55);
-}
-.hero-h1 strong {
-  font-weight: 600;
-  color: #fff;
-}
-.hero-sub {
-  font-size: clamp(0.9rem, 1.5vw, 1.1rem);
-  color: rgba(255,255,255,0.6);
-  line-height: 1.75;
-  font-weight: 300;
-  max-width: 500px;
-  margin-bottom: 40px;
-  letter-spacing: 0.01em;
-}
-.hero-btns {
-  display: flex; gap: 14px; flex-wrap: wrap;
-}
-.btn-hero-primary {
-  display: inline-flex; align-items: center; gap: 10px;
-  padding: 14px 30px;
-  background: var(--accent);
-  color: #fff;
-  font-size: 0.78rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  font-weight: 600;
-  transition: all 0.25s var(--ease);
-}
-.btn-hero-primary:hover { background: var(--accent-dark); transform: translateY(-2px); }
-.btn-hero-ghost {
-  display: inline-flex; align-items: center; gap: 10px;
-  padding: 14px 30px;
-  border: 1px solid rgba(255,255,255,0.2);
-  color: rgba(255,255,255,0.7);
-  font-size: 0.78rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  font-weight: 500;
-  transition: all 0.25s var(--ease);
-}
-.btn-hero-ghost:hover { border-color: rgba(255,255,255,0.5); color: #fff; }
-.hero-scroll {
-  position: absolute; bottom: 36px; right: clamp(20px,6vw,72px);
-  z-index: 2;
-  display: flex; flex-direction: column; align-items: center; gap: 8px;
-  writing-mode: vertical-lr;
-  font-size: 0.62rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,0.3);
-}
-.hero-scroll-line {
-  width: 1px; height: 48px;
-  background: linear-gradient(to bottom, var(--accent), transparent);
-  animation: scrollAnim 2s ease infinite;
-}
-@keyframes scrollAnim { 0%,100%{transform:scaleY(0);transform-origin:top;opacity:0} 50%{transform:scaleY(1);opacity:1} }
-@media (max-width: 520px) {
-  .hero-btns { flex-direction: column; }
-  .btn-hero-primary, .btn-hero-ghost { justify-content: center; }
-  .btn-hero-ghost .hero-ext-arrow { display: none; }
-}
-
-/* ── STATS BAR ── */
-.stats-bar {
-  border-bottom: 1px solid var(--border);
-  background: var(--bg);
-}
-.stats-inner {
-  max-width: var(--max);
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-.stat-item {
-  padding: 32px 24px;
-  border-right: 1px solid var(--border);
-  text-align: left;
-}
-.stat-item:last-child { border-right: none; }
-.stat-num {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: clamp(1.8rem, 3.5vw, 3rem);
-  font-weight: 300;
-  letter-spacing: -0.04em;
-  color: var(--ink);
-  line-height: 1;
-  margin-bottom: 6px;
-}
-.stat-num em { font-style: normal; color: var(--accent); }
-.stat-label {
-  font-size: 0.72rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--ink3);
-  font-weight: 500;
-}
-@media (max-width: 600px) {
-  .stats-inner { grid-template-columns: repeat(2, 1fr); }
-  .stat-item { border-right: none; border-bottom: 1px solid var(--border); }
-  .stat-item:nth-child(odd) { border-right: 1px solid var(--border); }
-  .stat-item:last-child, .stat-item:nth-last-child(2):nth-child(odd) { border-bottom: none; }
-}
-
-/* ── MARQUEE ── */
-.marquee-wrap {
-  overflow: hidden;
-  border-bottom: 1px solid var(--border);
-  background: var(--surface);
-  padding: 0;
-}
-.marquee-track {
-  display: flex;
-  animation: marquee 28s linear infinite;
-  width: max-content;
-}
-.marquee-item {
-  display: flex; align-items: center; gap: 20px;
-  padding: 14px 32px;
-  font-size: 0.68rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--ink3);
-  white-space: nowrap;
-  font-weight: 500;
-  font-family: 'Inter', sans-serif;
-}
-.marquee-sep {
-  width: 3px; height: 3px;
-  border-radius: 50%;
-  background: var(--accent);
-  opacity: 0.5;
-  flex-shrink: 0;
-}
-@keyframes marquee { from{transform:translateX(0)} to{transform:translateX(-50%)} }
-
-/* ── SECTION BASE ── */
-.section {
-  padding: clamp(56px, 9vw, 120px) clamp(20px, 5vw, 60px);
-  position: relative;
-}
-@media (max-width: 860px) {
-  .section { padding-top: 48px; padding-bottom: 48px; }
-}
-.section-max { max-width: var(--max); margin: 0 auto; }
-.eyebrow {
-  display: inline-flex; align-items: center; gap: 12px;
-  font-size: 0.68rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--ink3);
-  font-weight: 500;
-  margin-bottom: 20px;
-}
-.eyebrow::before {
-  content: '';
-  display: block;
-  width: 20px; height: 1px;
-  background: var(--accent);
-}
-.section-title {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: clamp(2.2rem, 5vw, 4rem);
-  font-weight: 300;
-  letter-spacing: -0.03em;
-  line-height: 1.05;
-  color: var(--ink);
-  margin-bottom: 16px;
-}
-.section-title strong { font-weight: 600; }
-.section-title em {
-  font-style: italic;
-  font-weight: 300;
-  color: var(--ink2);
-}
-.section-title .accent { color: var(--accent); }
-.section-sub {
-  font-size: 0.95rem;
-  color: var(--ink2);
-  line-height: 1.75;
-  max-width: 460px;
-  font-weight: 300;
-}
-
-/* ── FEATURES ── */
-.feat-rows { margin-top: 64px; }
-@media (max-width: 860px) { .feat-rows { margin-top: 36px; } }
-.feat-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 72px;
-  align-items: center;
-  padding: 64px 0;
-  border-top: 1px solid var(--border);
-}
-.feat-row:last-child { border-bottom: 1px solid var(--border); }
-.feat-row.flip { direction: rtl; }
-.feat-row.flip > * { direction: ltr; }
-.feat-text .eyebrow { margin-bottom: 18px; }
-.feat-text h3 {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: clamp(1.6rem, 3vw, 2.4rem);
-  font-weight: 300;
-  letter-spacing: -0.025em;
-  line-height: 1.1;
-  color: var(--ink);
-  margin-bottom: 14px;
-}
-.feat-text h3 strong { font-weight: 600; }
-.feat-text p {
-  font-size: 0.93rem;
-  color: var(--ink2);
-  line-height: 1.8;
-  margin-bottom: 28px;
-  font-weight: 300;
-  max-width: 400px;
-}
-.feat-list { display: flex; flex-direction: column; gap: 12px; }
-.feat-list li {
-  display: flex; align-items: flex-start; gap: 14px;
-  font-size: 0.88rem;
-  color: var(--ink);
-  font-weight: 400;
-  line-height: 1.55;
-}
-.feat-check {
-  flex-shrink: 0;
-  margin-top: 3px;
-  width: 16px; height: 16px;
-  border: 1px solid var(--accent);
-  display: flex; align-items: center; justify-content: center;
-}
-.feat-check svg { width: 9px; height: 9px; color: var(--accent); }
-.feat-visual {
-  position: relative;
-  overflow: hidden;
-  aspect-ratio: 4/3;
-  border-radius: 4px;
-}
-.feat-visual img {
-  width: 100%; height: 100%;
-  object-fit: cover;
-  display: block;
-  transition: transform 0.8s var(--ease);
-  filter: brightness(0.95) saturate(0.9);
-}
-.feat-visual:hover img { transform: scale(1.03); }
-.feat-chip {
-  position: absolute; bottom: 20px; left: 20px;
-  background: rgba(255,251,245,0.92);
-  backdrop-filter: blur(12px);
-  border: 1px solid var(--border);
-  padding: 10px 16px;
-  display: flex; align-items: center; gap: 9px;
-  border-radius: 2px;
-}
-.feat-chip-pulse {
-  width: 6px; height: 6px; border-radius: 50%;
-  background: var(--accent);
-  box-shadow: 0 0 8px rgba(230, 126, 34, 0.6);
-  animation: pulse 2s ease infinite;
-  flex-shrink: 0;
-}
-.feat-chip-txt {
-  font-size: 0.68rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--ink2);
-  font-weight: 500;
-}
-
-@media (max-width: 860px) {
-  .feat-row, .feat-row.flip {
-    grid-template-columns: 1fr;
-    direction: ltr;
-    gap: 36px;
-    padding: 48px 0;
-  }
-  .feat-text p { max-width: 100%; }
-}
-
-/* ── PRICING ── */
-.pricing-section { background: var(--bg); }
-.pricing-header { margin-bottom: 56px; }
-.pricing-header .section-sub { max-width: 440px; }
-@media (max-width: 860px) { .pricing-header { margin-bottom: 32px; } }
-.pricing-grid {
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  border: 1px solid var(--border);
-}
-.price-card {
-  padding: 36px 30px 40px;
-  border-right: 1px solid var(--border);
-  position: relative;
-  transition: background 0.25s;
-}
-.price-card:last-child { border-right: none; }
-.price-card:hover { background: var(--surface); }
-.price-card.hot {
-  background: var(--ink);
-  color: rgba(255,255,255,0.9);
-}
-.price-card.hot:hover { background: #111; }
-.price-icon {
-  width: 36px; height: 36px;
-  border: 1px solid var(--border);
-  display: flex; align-items: center; justify-content: center;
-  margin-bottom: 20px;
-}
-.price-card.hot .price-icon { border-color: rgba(255,255,255,0.15); }
-.price-icon svg { width: 16px; height: 16px; color: var(--accent); }
-.price-name {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 1.05rem;
-  font-weight: 600;
-  letter-spacing: -0.01em;
-  margin-bottom: 8px;
-  color: var(--ink);
-}
-.price-card.hot .price-name { color: #fff; }
-.price-desc {
-  font-size: 0.82rem;
-  color: var(--ink2);
-  line-height: 1.65;
-  margin-bottom: 28px;
-  font-weight: 300;
-  min-height: 52px;
-}
-.price-card.hot .price-desc { color: rgba(255,255,255,0.5); }
-.price-divider { border: none; border-top: 1px solid var(--border); margin-bottom: 24px; }
-.price-card.hot .price-divider { border-color: rgba(255,255,255,0.1); }
-.price-val {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 3.2rem;
-  font-weight: 300;
-  letter-spacing: -0.04em;
-  color: var(--ink);
-  line-height: 1;
-  margin-bottom: 4px;
-}
-.price-card.hot .price-val { color: #fff; }
-.price-val em { font-style: normal; color: var(--accent); }
-.price-per {
-  font-size: 0.68rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--ink3);
-  margin-bottom: 28px;
-  font-weight: 500;
-}
-.price-card.hot .price-per { color: rgba(255,255,255,0.3); }
-.price-feats { display: flex; flex-direction: column; gap: 10px; margin-bottom: 32px; flex-grow: 1; }
-.price-feats li {
-  display: flex; align-items: center; gap: 10px;
-  font-size: 0.85rem; color: var(--ink);
-  font-weight: 400;
-}
-.price-card.hot .price-feats li { color: rgba(255,255,255,0.75); }
-.price-feats li svg { width: 13px; height: 13px; color: var(--accent); flex-shrink: 0; }
-.btn-price {
-  display: block; width: 100%; text-align: center;
-  padding: 13px 20px;
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  font-weight: 600;
-  transition: all 0.2s;
-  border: 1px solid var(--border);
-  color: var(--ink);
-  margin-top: auto;
-}
-.btn-price:hover { border-color: var(--ink); }
-.price-card.hot .btn-price {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: #fff;
-}
-.price-card.hot .btn-price:hover { background: var(--accent-dark); border-color: var(--accent-dark); }
-
-@media (max-width: 860px) {
-  .pricing-grid { grid-template-columns: 1fr; }
-  .price-card { border-right: none; border-bottom: 1px solid var(--border); }
-  .price-card:last-child { border-bottom: none; }
-}
-
-/* ── CONTACT ── */
-.contact-section { background: var(--surface); }
-.contact-inner {
-  display: grid;
-  grid-template-columns: 1fr 1.4fr;
-  gap: 80px;
-  align-items: start;
-}
-.contact-left { position: sticky; top: 88px; }
-.contact-left h2 {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: clamp(2rem, 4vw, 3.2rem);
-  font-weight: 300;
-  letter-spacing: -0.03em;
-  line-height: 1.05;
-  color: var(--ink);
-  margin-bottom: 14px;
-}
-.contact-left h2 em { font-style: italic; color: var(--accent); }
-.contact-left p {
-  font-size: 0.93rem;
-  color: var(--ink2);
-  line-height: 1.8;
-  font-weight: 300;
-  margin-bottom: 36px;
-}
-.contact-meta { display: flex; flex-direction: column; gap: 8px; }
-.cmeta {
-  display: flex; align-items: center; gap: 14px;
-  padding: 14px 18px;
-  background: var(--bg);
-  border: 1px solid var(--border);
-  transition: border-color 0.2s;
-}
-.cmeta:hover { border-color: var(--accent); }
-.cmeta-ico {
-  width: 32px; height: 32px;
-  border: 1px solid var(--border);
-  display: flex; align-items: center; justify-content: center;
-  flex-shrink: 0;
-}
-.cmeta-ico svg { width: 13px; height: 13px; color: var(--accent); }
-.cmeta-label {
-  font-size: 0.6rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--ink3);
-  margin-bottom: 2px;
-  font-weight: 500;
-}
-.cmeta-val { font-size: 0.85rem; font-weight: 500; color: var(--ink); }
-.form-box {
-  background: var(--bg);
-  border: 1px solid var(--border);
-  padding: 40px 40px 44px;
-}
-.form-step-label {
-  display: block;
-  font-size: 0.64rem;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--accent);
-  font-weight: 600;
-  margin-bottom: 12px;
-}
-.fg { margin-bottom: 20px; }
-.form-label {
-  display: block;
-  font-size: 0.64rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--ink3);
-  font-weight: 500;
-  margin-bottom: 8px;
-}
-.f2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
-.finput, .ftextarea {
-  width: 100%;
-  background: transparent;
-  border: 1px solid var(--border);
-  color: var(--ink);
-  font-family: 'Inter', sans-serif;
-  font-size: 0.9rem;
-  padding: 12px 15px;
-  outline: none;
-  transition: border-color 0.2s, box-shadow 0.2s;
-  font-weight: 400;
-}
-.finput:focus, .ftextarea:focus {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(230,126,34,0.1);
-}
-.finput::placeholder, .ftextarea::placeholder { color: var(--ink3); }
-.ftextarea { resize: vertical; min-height: 110px; }
-
-.pill-row { display: flex; flex-wrap: wrap; gap: 6px; }
-.pill-row input[type="radio"] { display: none; }
-.pill-row label {
-  padding: 6px 14px;
-  border: 1px solid var(--border);
-  font-size: 0.75rem;
-  letter-spacing: 0.06em;
-  color: var(--ink2);
-  cursor: pointer;
-  transition: all 0.18s;
-  font-weight: 500;
-  display: flex; align-items: center; gap: 6px;
-}
-.pill-row label:hover { border-color: var(--ink2); color: var(--ink); }
-.pill-row input:checked + label {
-  border-color: var(--accent);
-  color: var(--accent);
-  background: rgba(230, 126, 34, 0.05);
-}
-
-.form-sep { border: none; border-top: 1px solid var(--border); margin: 24px 0; }
-.btn-submit {
-  width: 100%; display: flex; align-items: center; justify-content: center;
-  gap: 10px; padding: 16px 24px;
-  background: var(--ink); border: none;
-  font-size: 0.75rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: var(--bg);
-  cursor: pointer;
-  font-family: 'Inter', sans-serif;
-  transition: all 0.25s var(--ease);
-}
-.btn-submit:hover { background: var(--accent); }
-.btn-submit svg { width: 14px; height: 14px; }
-
-@media (max-width: 860px) {
-  .contact-inner { grid-template-columns: 1fr; gap: 48px; }
-  .contact-left { position: static; }
-  .f2 { grid-template-columns: 1fr; }
-  .form-box { padding: 28px 24px 32px; }
-}
-
-/* ── CTA BAND ── */
-.cta-band {
-  background: var(--ink);
-  padding: 80px clamp(20px, 5vw, 60px);
-  text-align: center;
-  position: relative; overflow: hidden;
-}
-.cta-band::before {
-  content: '';
-  position: absolute; top: 0; left: 0; right: 0;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(230,126,34,0.5), transparent);
-}
-.cta-band h2 {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: clamp(2rem, 4.5vw, 3.5rem);
-  font-weight: 300;
-  letter-spacing: -0.03em;
-  color: #fff;
-  margin-bottom: 12px;
-}
-.cta-band h2 em { font-style: italic; color: rgba(255,255,255,0.35); }
-.cta-band h2 strong { font-weight: 600; color: #fff; }
-.cta-band p {
-  font-size: 0.93rem;
-  color: rgba(255,255,255,0.4);
-  font-weight: 300;
-  margin-bottom: 36px;
-  max-width: 420px;
-  margin-left: auto; margin-right: auto;
-  line-height: 1.75;
-}
-.cta-band-btns {
-  display: flex; gap: 12px;
-  justify-content: center; flex-wrap: wrap;
-}
-.btn-cta-primary {
-  display: inline-flex; align-items: center; gap: 10px;
-  padding: 14px 30px;
-  background: var(--accent); color: #fff;
-  font-size: 0.75rem; letter-spacing: 0.12em;
-  text-transform: uppercase; font-weight: 600;
-  transition: all 0.2s;
-}
-.btn-cta-primary:hover { background: var(--accent-dark); }
-.btn-cta-ghost {
-  display: inline-flex; align-items: center; gap: 10px;
-  padding: 14px 30px;
-  border: 1px solid rgba(255,255,255,0.15);
-  color: rgba(255,255,255,0.55);
-  font-size: 0.75rem; letter-spacing: 0.12em;
-  text-transform: uppercase; font-weight: 500;
-  transition: all 0.2s;
-}
-.btn-cta-ghost:hover { border-color: rgba(255,255,255,0.35); color: #fff; }
-
-/* ── FOOTER ── */
-footer {
-  background: var(--ink);
-  padding: 56px clamp(20px, 5vw, 60px) 28px;
-}
-.footer-top {
-  max-width: var(--max); margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1.6fr 1fr 1fr 1fr;
-  gap: 40px;
-  padding-bottom: 40px;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-}
-.footer-brand img { height: 22px; width: auto; margin-bottom: 14px; filter: brightness(10); opacity: 0.7; }
-.footer-brand p {
-  font-size: 0.82rem;
-  color: rgba(255,255,255,0.3);
-  line-height: 1.7;
-  max-width: 200px;
-  font-weight: 300;
-}
-.footer-col h5 {
-  font-size: 0.62rem;
-  font-weight: 600;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,0.2);
-  margin-bottom: 16px;
-}
-.footer-col a, .footer-col p {
-  display: block;
-  font-size: 0.82rem;
-  color: rgba(255,255,255,0.4);
-  margin-bottom: 9px;
-  transition: color 0.2s;
-  line-height: 1.55;
-  font-weight: 300;
-}
-.footer-col a:hover { color: rgba(255,255,255,0.8); }
-.footer-bottom {
-  max-width: var(--max); margin: 24px auto 0;
-  display: flex; align-items: center; justify-content: space-between;
-  gap: 12px; flex-wrap: wrap;
-}
-.footer-bottom p, .footer-bottom-right {
-  font-size: 0.7rem;
-  color: rgba(255,255,255,0.18);
-  letter-spacing: 0.05em;
-  font-weight: 300;
-}
-.footer-bottom a { color: rgba(255,255,255,0.28); transition: color 0.2s; }
-.footer-bottom a:hover { color: rgba(255,255,255,0.55); }
-.footer-bottom-right span { color: rgba(230, 126, 34, 0.6); }
-
-@media (max-width: 860px) {
-  .footer-top { grid-template-columns: 1fr 1fr; gap: 28px; }
-}
-@media (max-width: 520px) {
-  footer { padding: 36px clamp(16px, 5vw, 40px) 20px; }
-  .footer-top { grid-template-columns: 1fr 1fr; gap: 20px 16px; padding-bottom: 24px; }
-  .footer-brand { grid-column: 1 / -1; }
-  .footer-brand p { max-width: 100%; font-size: 0.78rem; }
-  .footer-col h5 { margin-bottom: 10px; }
-  .footer-col a, .footer-col p { font-size: 0.78rem; margin-bottom: 6px; }
-  .footer-bottom { flex-direction: column; text-align: center; gap: 6px; margin-top: 16px; }
-  .footer-bottom p, .footer-bottom-right { font-size: 0.65rem; }
-}
-
-/* ── SCROLL REVEAL ── */
-.sr { opacity: 0; transform: translateY(22px); transition: opacity 0.75s var(--ease), transform 0.75s var(--ease); }
-.sr.in { opacity: 1; transform: translateY(0); }
-.sr-d1 { transition-delay: 0.08s; }
-.sr-d2 { transition-delay: 0.17s; }
-.sr-d3 { transition-delay: 0.26s; }
-
-/* ── REDUCED MOTION ── */
-@media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
-  .sr { opacity: 1; transform: none; }
-}
-
-/* ── LARGE DESKTOP ── */
-@media (min-width: 1400px) {
-  .section-max { max-width: 1320px; }
-  .stats-inner { max-width: 1320px; }
-  .footer-top { max-width: 1320px; }
-  .footer-bottom { max-width: 1320px; }
-}
-@media (min-width: 1800px) {
-  .section-max { max-width: 1500px; }
-  .stats-inner { max-width: 1500px; }
-  .footer-top { max-width: 1500px; }
-  .footer-bottom { max-width: 1500px; }
-}
-</style>
+</script>
 </head>
 <body>
-
-<nav class="nav" id="main-nav">
-  <div class="nav-logo">
-    <img src="https://cdn.shopify.com/s/files/1/0720/6325/4803/files/BRATUS_BALTS_LOGO_PNG_31ca2710-d923-44ca-ab97-7d4706e0ce6d.png?v=1764954367" alt="Bratus">
-    <div class="nav-logo-text">Ploteri<em>.lv</em></div>
+<a class="skip" href="#saturs">Pāriet uz saturu</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/" aria-label="Ploteris.lv – sākumlapa">
+      <img src="/assets/img/logo.png" alt="" width="19" height="26">
+      <span>Ploteris<em>.lv</em></span>
+    </a>
+    <nav class="main-nav" id="main-nav" aria-label="Galvenā izvēlne"><a href="/" aria-current="page">Sākums</a><a href="/#modeli">Modeļi</a><a href="/cenas/">Cenas</a><a href="/uzlimju-ploteris/">Pielietojums</a><a href="/kas-ir-ploteris/">Kas ir ploteris</a><a href="/kontakti/">Kontakti</a></nav>
+    <div class="header-cta">
+      <a class="btn btn-primary btn-small" href="tel:+37126325307">+371 26 325 307</a>
+      <button class="menu-btn" id="menu-btn" aria-controls="main-nav" aria-expanded="false">Izvēlne</button>
+    </div>
   </div>
-  <ul class="nav-links" id="nav-links">
-    <li><a href="#iekartas">Iekārtas</a></li>
-    <li><a href="#prieksrocibas">Priekšrocības</a></li>
-    <li><a href="#modeli">Modeļi</a></li>
-    <li><a href="#pieteikums">Kontakts</a></li>
-  </ul>
-  <div class="nav-cta-wrap">
-    <a href="https://bratus.lv" target="_blank" class="btn-nav-ghost">bratus.lv</a>
-    <a href="#pieteikums" class="btn-nav-accent">Konsultācija</a>
-    <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Izvēlne">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/>
-      </svg>
-    </button>
-  </div>
-</nav>
+</header>
+<main id="saturs">
 
 <section class="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-overlay"></div>
-  <div class="hero-inner">
-    <div class="hero-eyebrow">
-      <span class="hero-eyebrow-line"></span>
-      <span class="hero-pulse">
-        <span class="pulse-dot"></span>
-        Uzticams risinājums
-      </span>
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Plotergriezēji · SIA Bratus</span>
+      <h1>Griešanas ploteris vinilam, termoplēvei un kartonam</h1>
+      <p class="lead">Pārdodam plotergriezējus 71, 86 un 134&nbsp;cm platumā. Griešanas spiedienu var regulēt no 10 līdz 500&nbsp;g, ātrumu – līdz 800 mm/s, un katram modelim ir 18 mēnešu garantija.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="#modeli">Skatīt modeļus un cenas</a>
+        <a class="btn btn-ghost" href="tel:+37126325307">Zvanīt +371 26 325 307</a>
+      </div>
     </div>
-    <h1 class="hero-h1">
-      Profesionāli<br>
-      <strong>Plotergriezēji</strong><br>
-      <em>tavam biznesam</em>
-    </h1>
-    <p class="hero-sub">Precīza griešana, liels ātrums un uzticamība reklāmai, dizainam un personalizētiem projektiem.</p>
-    <div class="hero-btns">
-      <a href="#modeli" class="btn-hero-primary">
-        Apskatīt modeļus
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-          <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
-        </svg>
-      </a>
-      <a href="https://bratus.lv" target="_blank" class="btn-hero-ghost">
-        Skatīt bratus.lv <span class="hero-ext-arrow">↗</span>
-      </a>
+    <div class="hero-img">
+      <img src="/assets/img/griesanas-ploteris-stativa.webp" width="1400" height="953" alt="Griešanas ploteris uz metāla statīva ar ruļļa turētāju" fetchpriority="high">
     </div>
-  </div>
-  <div class="hero-scroll" aria-hidden="true">
-    <span class="hero-scroll-line"></span>
-    <span>Scroll</span>
   </div>
 </section>
 
-<div class="stats-bar">
-  <div class="stats-inner">
-    <div class="stat-item sr">
-      <div class="stat-num">3</div>
-      <div class="stat-label">Modeļi: 71, 86, 134 cm</div>
-    </div>
-    <div class="stat-item sr sr-d1">
-      <div class="stat-num">500<em>g</em></div>
-      <div class="stat-label">Griešanas spiediens</div>
-    </div>
-    <div class="stat-item sr sr-d2">
-      <div class="stat-num">800<em>mm/s</em></div>
-      <div class="stat-label">Maksimālais ātrums</div>
-    </div>
-    <div class="stat-item sr sr-d3">
-      <div class="stat-num">18<em>mēn</em></div>
-      <div class="stat-label">Pilna servisa garantija</div>
-    </div>
+<div class="wrap">
+  <div class="stats">
+    <div class="stat"><b>71 · 86 · 134&nbsp;cm</b><span>Trīs darba platumi</span></div>
+    <div class="stat"><b>10–500&nbsp;g</b><span>Griešanas spiediens</span></div>
+    <div class="stat"><b>800 mm/s</b><span>Maksimālais ātrums</span></div>
+    <div class="stat"><b>18&nbsp;mēn.</b><span>Garantija</span></div>
   </div>
 </div>
 
-<div class="marquee-wrap" aria-hidden="true">
-  <div class="marquee-track">
-    <span class="marquee-item">Plotera Vinils<span class="marquee-sep"></span></span>
-    <span class="marquee-item">Termoplēve<span class="marquee-sep"></span></span>
-    <span class="marquee-item">Kartonam<span class="marquee-sep"></span></span>
-    <span class="marquee-item">Auto uzlīmēm<span class="marquee-sep"></span></span>
-    <span class="marquee-item">Kreklu apdrukai<span class="marquee-sep"></span></span>
-    <span class="marquee-item">Precizitāte 0.01mm<span class="marquee-sep"></span></span>
-    <span class="marquee-item">Ātrs un kluss<span class="marquee-sep"></span></span>
-    
-    <span class="marquee-item">Plotera Vinils<span class="marquee-sep"></span></span>
-    <span class="marquee-item">Termoplēve<span class="marquee-sep"></span></span>
-    <span class="marquee-item">Kartonam<span class="marquee-sep"></span></span>
-    <span class="marquee-item">Auto uzlīmēm<span class="marquee-sep"></span></span>
-    <span class="marquee-item">Kreklu apdrukai<span class="marquee-sep"></span></span>
-    <span class="marquee-item">Precizitāte 0.01mm<span class="marquee-sep"></span></span>
-    <span class="marquee-item">Ātrs un kluss<span class="marquee-sep"></span></span>
+<section class="section" id="kas-ir">
+  <div class="wrap two-col">
+    <div class="prose">
+      <h2>Kas ir griešanas ploteris</h2>
+      <p>Griešanas ploteris jeb plotergriezējs ar asmeni izgriež kontūras no plēves, papīra vai kartona pēc datorā sagatavota faila. Ar to izgatavo uzlīmes, uzrakstus uz skatlogiem un automašīnām, kā arī termoplēves attēlus apģērbam.</p>
+      <p>Griešanas ploteris nedrukā. Ja meklējat iekārtu rasējumu vai plakātu drukāšanai, Jums vajadzīgs drukas ploteris, piemēram, HP DesignJet. Atšķirību sīkāk skaidrojam lapā <a href="/kas-ir-ploteris/">Kas ir ploteris</a>.</p>
+    </div>
+    <figure class="hero-img">
+      <img src="/assets/img/plotera-griesanas-galvina.webp" width="1400" height="667" alt="Plotera griešanas galviņa ar asmeni un LCD vadības paneli" loading="lazy">
+    </figure>
   </div>
+</section>
+
+<section class="section section-alt" id="modeli">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Plotergriezēju modeļi un cenas</h2>
+      <p>Modeļi atšķiras ar darba platumu. Izvēlieties to pēc platākā materiāla, ko plānojat griezt. Cenas norādītas bez PVN.</p>
+    </div>
+    <div class="cards">
+      <article class="card">
+        <h3><a href="/ploteris-71-cm/">Ploteris 71&nbsp;cm</a></h3>
+        <p>Kompakts ploteris mājamatniecībai, papīra un vinila griešanai ierobežotos formātos.</p>
+        <ul>
+          <li>71&nbsp;cm darba platums</li>
+          <li>Komplektā programmatūra</li>
+          <li>18 mēnešu garantija</li>
+        </ul>
+        <div class="card-spacer"></div>
+        <div class="price">544,50&nbsp;€<small>bez PVN</small></div>
+        <a class="btn btn-ghost btn-small" href="/ploteris-71-cm/">Skatīt 71&nbsp;cm modeli</a>
+      </article>
+      <article class="card">
+        <h3><a href="/ploteris-86-cm/">Ploteris 86&nbsp;cm</a></h3>
+        <p>Vidējā izmēra ploteris ikdienas darbam dizaina studijā un T-kreklu apdrukai ar termoplēvi.</p>
+        <ul>
+          <li>86&nbsp;cm darba platums</li>
+          <li>Komplektā programmatūra</li>
+          <li>18 mēnešu garantija</li>
+        </ul>
+        <div class="card-spacer"></div>
+        <div class="price">641,30&nbsp;€<small>bez PVN</small></div>
+        <a class="btn btn-ghost btn-small" href="/ploteris-86-cm/">Skatīt 86&nbsp;cm modeli</a>
+      </article>
+      <article class="card">
+        <h3><a href="/ploteris-134-cm/">Ploteris 134&nbsp;cm</a></h3>
+        <p>Lielformāta ploteris auto uzlīmēm un lieliem baneriem.</p>
+        <ul>
+          <li>134&nbsp;cm darba platums</li>
+          <li>Komplektā programmatūra</li>
+          <li>18 mēnešu garantija</li>
+        </ul>
+        <div class="card-spacer"></div>
+        <div class="price">822,80&nbsp;€<small>bez PVN</small></div>
+        <a class="btn btn-ghost btn-small" href="/ploteris-134-cm/">Skatīt 134&nbsp;cm modeli</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="materiali">
+  <div class="wrap two-col">
+    <div class="prose">
+      <h2>Ko var griezt ar ploteri</h2>
+      <p>Spiedienu un ātrumu iestata tieši plotera panelī. Plānam papīram vajag mazu spiedienu, bet biezākai plēvei – lielāku. Tā vienu iekārtu var izmantot dažādiem materiāliem.</p>
+      <p>Piemērus un modeļu izvēli pēc darba veida aprakstām lapā <a href="/uzlimju-ploteris/">Ploteris uzlīmēm un termoplēvei</a>.</p>
+    </div>
+    
+<div class="table-wrap">
+  <table>
+    <thead><tr><th scope="col">Materiāls</th><th scope="col">Piezīmes</th></tr></thead>
+    <tbody>
+      <tr><td>Vinila plēve (ploterplēve)</td><td>Standarta pielietojums: uzlīmes, uzraksti, logo</td></tr>
+      <tr><td>Termoplēve (HTV, Flex plēve)</td><td>T-kreklu un tekstila apdruka</td></tr>
+      <tr><td>Flokētā plēve (floks)</td><td>Samtaina virsma tekstilam</td></tr>
+      <tr><td>Papīrs un amatniecības papīrs</td><td>Līdz vidējam biezumam</td></tr>
+      <tr><td>Kartons</td><td>Plānāki kartona veidi</td></tr>
+      <tr><td>Krāsu maskas</td><td>Lietošanai ar lāzergravētājiem</td></tr>
+    </tbody>
+  </table>
 </div>
+  </div>
+</section>
 
-<section class="section features-section" id="prieksrocibas">
-  <div class="section-max">
-    <div class="sr">
-      <div class="eyebrow">Iekārtu priekšrocības</div>
-      <h2 class="section-title">Precizitāte, kas<br><strong>nemana robežas</strong></h2>
+<section class="section section-alt" id="tehniskie-dati">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Tehniskie dati</h2>
+      <p>Šie parametri attiecas uz plotergriezējiem, ko piedāvājam. Pilnu tabulu katram modelim atradīsiet modeļa lapā.</p>
     </div>
-    
-    <div class="feat-rows">
-      <div class="feat-row sr">
-        <div class="feat-text">
-          <div class="eyebrow">Izturība un Jauda</div>
-          <h3>Spēcīgs griešanas<br><strong>spēks (Līdz 500g)</strong></h3>
-          <p>Maksimālā kontrole ar 10 – 500 gramu regulējamu griešanas spiedienu, kas ļauj apstrādāt daudzveidīgus materiālus.</p>
-          <ul class="feat-list">
-            <li>
-              <span class="feat-check"><svg viewBox="0 0 10 8" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 3.5L3.5 6L9 1" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-              Piemērots ploterplēvēm, termoplēvēm (flokam) un papīram.
-            </li>
-            <li>
-              <span class="feat-check"><svg viewBox="0 0 10 8" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 3.5L3.5 6L9 1" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-              Izturīgs alumīnija korpuss stabilai darbībai.
-            </li>
-            <li>
-              <span class="feat-check"><svg viewBox="0 0 10 8" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 3.5L3.5 6L9 1" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-              Asmens precizitāte: 0.01 mm.
-            </li>
-          </ul>
-        </div>
-        <div class="feat-visual sr sr-d2">
-          <img src="https://bratus.lv/cdn/shop/files/Untitled_Project_10.jpg?v=1727436213&width=750" alt="Plotergriezēja galviņa">
-          <div class="feat-chip">
-            <div class="feat-chip-pulse"></div>
-            <div class="feat-chip-txt">Griešanas galviņa</div>
-          </div>
-        </div>
+    <div class="features">
+      <div class="feature">
+        <h3>Griešanas spiediens 10–500&nbsp;g</h3>
+        <p>Spiedienu regulē atbilstoši materiālam. Asmens pozicionēšanas precizitāte ir 0,01&nbsp;mm.</p>
       </div>
-
-      <div class="feat-row flip sr">
-        <div class="feat-text">
-          <div class="eyebrow">Ergonomika</div>
-          <h3>Klusa un ērta<br><strong>darbība</strong></h3>
-          <p>Iekārta darbojas klusi, samazinot traucējumus darba vidē. Viegla iestatījumu pielāgošana, pateicoties pārskatāmam LCD ekrānam.</p>
-          <ul class="feat-list">
-            <li>
-              <span class="feat-check"><svg viewBox="0 0 10 8" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 3.5L3.5 6L9 1" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-              Regulējams ātrums un spiediens tieši no paneļa.
-            </li>
-            <li>
-              <span class="feat-check"><svg viewBox="0 0 10 8" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 3.5L3.5 6L9 1" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-              Dubultā rullīšu sistēma neiesprūst materiālu.
-            </li>
-          </ul>
-        </div>
-        <div class="feat-visual sr sr-d2">
-          <img src="https://bratus.lv/cdn/shop/files/Untitled_Project_5.jpg?v=1727436340&width=750" alt="Plotergriezēja vadības panelis">
-          <div class="feat-chip">
-            <div class="feat-chip-pulse"></div>
-            <div class="feat-chip-txt">LCD Panelis</div>
-          </div>
-        </div>
+      <div class="feature">
+        <h3>Ātrums līdz 800 mm/s</h3>
+        <p>Griešanas ātrums ir regulējams no 10 līdz 800 mm/s, un to var mainīt tieši vadības panelī.</p>
       </div>
-
-      <div class="feat-row sr">
-        <div class="feat-text">
-          <div class="eyebrow">Integrācija</div>
-          <h3>Plaša<br><strong>savietojamība</strong></h3>
-          <p>Pievienojiet iekārtu viegli un ērti — atbalsta DM/PL un HP/GL valodas, un ir saderīga ar galvenajām Windows sistēmām.</p>
-          <ul class="feat-list">
-            <li>
-              <span class="feat-check"><svg viewBox="0 0 10 8" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 3.5L3.5 6L9 1" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-              COM un USB interfeisi.
-            </li>
-            <li>
-              <span class="feat-check"><svg viewBox="0 0 10 8" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 3.5L3.5 6L9 1" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-              Savietojams ar Windows XP / Vista / 7 / 8 / 10.
-            </li>
-            <li>
-              <span class="feat-check"><svg viewBox="0 0 10 8" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 3.5L3.5 6L9 1" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-              Iekļauta programmatūra vienkāršai failu sagatavošanai.
-            </li>
-          </ul>
-        </div>
-        <div class="feat-visual sr sr-d2">
-          <img src="https://bratus.lv/cdn/shop/files/Untitled_Project_14.jpg?v=1727437074&width=550" alt="Plotera porti">
-          <div class="feat-chip">
-            <div class="feat-chip-pulse"></div>
-            <div class="feat-chip-txt">USB & COM</div>
-          </div>
-        </div>
+      <div class="feature">
+        <h3>Alumīnija korpuss un rullīši</h3>
+        <p>Korpuss ir no biezināta alumīnija. Materiālu padod dubultā alumīnija rullīšu sistēma ar atsperu piespiedējrullīšiem.</p>
       </div>
+      <div class="feature">
+        <h3>USB un COM pieslēgums</h3>
+        <p>Ploteris saprot DM/PL un HP/GL komandvalodas un darbojas ar Windows XP, Vista, 7, 8 un 10. Mac netiek atbalstīts.</p>
+      </div>
+    </div>
+    <div class="gallery">
+      <figure><img src="/assets/img/plotera-vadibas-panelis.webp" width="750" height="392" alt="Plotera LCD vadības panelis ar pogām Reset, Leave, Setting, Test un Origin" loading="lazy"><figcaption>LCD vadības panelis</figcaption></figure>
+      <figure><img src="/assets/img/plotera-usb-com-pieslegumi.webp" width="550" height="366" alt="Plotera USB un COM pieslēgvietas" loading="lazy"><figcaption>USB un COM pieslēgvietas</figcaption></figure>
     </div>
   </div>
 </section>
 
-<section class="section pricing-section" id="modeli">
-  <div class="section-max">
-    <div class="pricing-header sr">
-      <div class="eyebrow">Iekārtu klāsts (Cenas bez PVN)</div>
-      <h2 class="section-title">Izvēlies sev <strong>piemērotāko</strong></h2>
-      <p class="section-sub">Trīs iekārtu izmēri, kas pielāgoti dažādiem projektiem un ražošanas apjomiem.</p>
+<section class="section" id="komplektacija">
+  <div class="wrap two-col">
+    <div class="prose">
+      <h2>Komplektācija un garantija</h2>
+      <ul>
+        <li>Ploteris</li>
+        <li>Programmatūra failu sagatavošanai</li>
+        <li>Barošanas kabelis</li>
+        <li>USB kabelis</li>
+      </ul>
+      <p>Garantija ir 18 mēneši. Iekļauta apmācība un uzstādīšanas demonstrācija. SIA Bratus nodrošina CNC iekārtu apkopi un remontu.</p>
     </div>
-    
-    <div class="pricing-grid sr">
-      
-      <div class="price-card">
-        <div class="price-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-            <rect x="4" y="4" width="16" height="16" rx="2" ry="2"/>
-            <line x1="9" y1="4" x2="9" y2="20"/><line x1="15" y1="4" x2="15" y2="20"/>
-          </svg>
-        </div>
-        <div class="price-name">71 cm Ploteris</div>
-        <p class="price-desc">Kompakta ierīce mājamatniecībai, papīra un vinila griešanai ierobežotos formātos.</p>
-        <hr class="price-divider">
-        <div class="price-val">544.50<em>€</em></div>
-        <div class="price-per">Bez PVN</div>
-        <ul class="price-feats">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> 71 cm darba platums</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Komplektā ar programmatūru</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> 18 mēnešu garantija</li>
-        </ul>
-        <a href="#pieteikums" class="btn-price">Sazināties</a>
-      </div>
-
-      <div class="price-card hot">
-        <div class="price-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-            <rect x="2" y="4" width="20" height="16" rx="2" ry="2"/>
-            <line x1="8" y1="4" x2="8" y2="20"/><line x1="16" y1="4" x2="16" y2="20"/>
-          </svg>
-        </div>
-        <div class="price-name">86 cm Ploteris</div>
-        <p class="price-desc">Optimālais izmērs ikdienas dizaina studijām. Lieliska cenas/veiktspējas attiecība.</p>
-        <hr class="price-divider">
-        <div class="price-val">641.30<em>€</em></div>
-        <div class="price-per">Bez PVN (Populārākais)</div>
-        <ul class="price-feats">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> 86 cm darba platums</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Ideāli T-kreklu apdrukai</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> 18 mēnešu garantija</li>
-        </ul>
-        <a href="#pieteikums" class="btn-price">Pieteikt Pasūtījumu</a>
-      </div>
-
-      <div class="price-card">
-        <div class="price-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-            <rect x="2" y="4" width="20" height="16" rx="2" ry="2"/>
-            <line x1="6" y1="4" x2="6" y2="20"/><line x1="12" y1="4" x2="12" y2="20"/><line x1="18" y1="4" x2="18" y2="20"/>
-          </svg>
-        </div>
-        <div class="price-name">134 cm Ploteris</div>
-        <p class="price-desc">Lielformāta iekārta plašam pielietojumam — auto uzlīmēm un lieliem baneriem.</p>
-        <hr class="price-divider">
-        <div class="price-val">822.80<em>€</em></div>
-        <div class="price-per">Bez PVN</div>
-        <ul class="price-feats">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> 134 cm darba platums</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Lielformāta risinājums</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> 18 mēnešu garantija</li>
-        </ul>
-        <a href="#pieteikums" class="btn-price">Sazināties</a>
-      </div>
-
+    <div class="prose">
+      <h2>Kam ploteris neder</h2>
+      <p>Ploteris nav piemērots, ja Jūs strādājat tikai ar Mac datoru, jo Mac netiek atbalstīts. Biezu kartonu tas negriež: kartonam der plānāki veidi, papīram – līdz vidējam biezumam.</p>
+      <p>Ja nepieciešams griezt vai gravēt koku, akrilu vai biezu kartonu, apskatiet CO2 lāzerus un CNC frēzes vietnē <a href="https://bratus.lv">bratus.lv</a>.</p>
     </div>
   </div>
 </section>
 
-<section class="section contact-section" id="pieteikums">
-  <div class="section-max">
-    <div class="contact-inner">
-      
-      <div class="contact-left sr">
-        <div class="eyebrow">Ekspertu Konsultācija</div>
-        <h2>Sazinies un<br><em>atradīsim</em> labāko</h2>
-        <p>Aizpildiet formu, un mūsu speciālisti sazināsies ar jums, lai atbildētu uz jautājumiem vai palīdzētu veikt pasūtījumu.</p>
-        
-        <div class="contact-meta">
-          <a href="tel:+37126325307" class="cmeta">
-            <div class="cmeta-ico">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.19 12a2 2 0 0 1-.45-2.11L5 6.16a2 2 0 0 1 2-1.45h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81A2 2 0 0 1 12.25 11l-1.27 1.27a16 16 0 0 0 6 6L18.25 17a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 25 19.18z"/>
-              </svg>
-            </div>
-            <div>
-              <div class="cmeta-label">Konsultācijas un iegāde</div>
-              <div class="cmeta-val">+371 26 325 307</div>
-            </div>
-          </a>
-          <a href="mailto:sales@bratus.lv" class="cmeta">
-            <div class="cmeta-ico">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                <polyline points="22,6 12,13 2,6"/>
-              </svg>
-            </div>
-            <div>
-              <div class="cmeta-label">E-pasts</div>
-              <div class="cmeta-val">sales@bratus.lv</div>
-            </div>
-          </a>
-          <a href="https://bratus.lv/products/plotergriezejs" target="_blank" class="cmeta">
-            <div class="cmeta-ico">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="10"/>
-                <line x1="2" y1="12" x2="22" y2="12"/>
-                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-              </svg>
-            </div>
-            <div>
-              <div class="cmeta-label">Pilnā vietne</div>
-              <div class="cmeta-val">bratus.lv</div>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="form-box sr sr-d2">
-        <form action="#" method="POST" id="cf" onsubmit="alert('Šis ir vizuāls paraugs. Integrējiet formu ar Shopify backend vai citu sistēmu.'); return false;">
-          <input type="hidden" id="hwidth" value="Nav norādīts">
-          
-          <div class="fg">
-            <span class="form-step-label">01 — Interesējošais Izmērs</span>
-            <div class="pill-row">
-              <input type="radio" name="width" id="w71" value="71cm" onchange="document.getElementById('hwidth').value=this.value"><label for="w71">71 cm</label>
-              <input type="radio" name="width" id="w86" value="86cm" checked onchange="document.getElementById('hwidth').value=this.value"><label for="w86">86 cm</label>
-              <input type="radio" name="width" id="w134" value="134cm" onchange="document.getElementById('hwidth').value=this.value"><label for="w134">134 cm</label>
-              <input type="radio" name="width" id="woth" value="Nezinu" onchange="document.getElementById('hwidth').value=this.value"><label for="woth">Nezinu</label>
-            </div>
-          </div>
-          
-          <hr class="form-sep">
-          <span class="form-step-label" style="display:block;margin-bottom:16px">02 — Jūsu kontakti</span>
-          
-          <div class="f2">
-            <div class="fg">
-              <label class="form-label" for="iname">Vārds, uzvārds *</label>
-              <input class="finput" type="text" id="iname" placeholder="Jānis Bērziņš" required>
-            </div>
-            <div class="fg">
-              <label class="form-label" for="iemail">E-pasts *</label>
-              <input class="finput" type="email" id="iemail" placeholder="janis@epasts.lv" required>
-            </div>
-          </div>
-          
-          <div class="fg">
-            <label class="form-label" for="iphone">Tālrunis *</label>
-            <input class="finput" type="tel" id="iphone" placeholder="+371 20 000 000" required>
-          </div>
-          
-          <div class="fg">
-            <label class="form-label" for="imsg">Papildus jautājumi (Neobligāti)</label>
-            <textarea class="ftextarea" id="imsg" placeholder="Kādi jautājumi jums ir radušies par iekārtu?"></textarea>
-          </div>
-          
-          <button type="submit" class="btn-submit" id="sbtn">
-            Sazināties ar ekspertu
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-              <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
-            </svg>
-          </button>
-        </form>
-      </div>
-
-    </div>
+<section class="section section-alt" id="buj">
+  <div class="wrap">
+    <h2>Biežāk uzdotie jautājumi</h2>
+    <div class="faq"><details><summary>Cik maksā griešanas ploteris?</summary><p>Plotergriezēja 71&nbsp;cm modelis maksā 544,50&nbsp;€, 86&nbsp;cm modelis – 641,30&nbsp;€, bet 134&nbsp;cm modelis – 822,80&nbsp;€. Visas cenas norādītas bez PVN. Salīdzinājums ir lapā <a href="/cenas/">Cenas</a>.</p></details><details><summary>Kādus materiālus var griezt ar ploteri?</summary><p>Vinila plēvi, termoplēvi (HTV jeb Flex plēvi), flokēto plēvi, papīru līdz vidējam biezumam, plānākus kartona veidus un krāsu maskas lāzergravēšanai.</p></details><details><summary>Kāda programmatūra ir vajadzīga?</summary><p>Programmatūra failu sagatavošanai ir iekļauta komplektā. Ploteris saprot DM/PL un HP/GL komandvalodas un ir saderīgs ar Windows XP, Vista, 7, 8 un 10.</p></details><details><summary>Vai ploteris darbojas ar Mac datoru?</summary><p>Nē. Saskaņā ar tehnisko specifikāciju Mac netiek atbalstīts, tāpēc ploterim vajadzīgs dators ar Windows.</p></details><details><summary>Kā ploteri pievieno datoram?</summary><p>Ar USB kabeli vai caur COM (RS-232) pieslēgvietu. USB kabelis ir komplektā.</p></details><details><summary>Kāda ir garantija?</summary><p>Visiem trim modeļiem garantija ir 18 mēneši.</p></details><details><summary>Kā iegādāties ploteri?</summary><p>Zvaniet <a href="tel:+37126325307">+371 26 325 307</a>, rakstiet uz <a href="mailto:sales@bratus.lv">sales@bratus.lv</a> vai pasūtiet internetā <a href="https://bratus.lv/products/plotergriezejs">bratus.lv</a>.</p></details></div>
   </div>
 </section>
 
-<div class="cta-band">
-  <h2 class="sr">Vēlaties uzzināt vairāk<br>par <strong>BRATUS</strong>?</h2>
-  <p class="sr sr-d1">Mūsu pilnā mājaslapa piedāvā ne tikai plotergriezējus, bet arī CO2 lāzerus, CNC frēzes un marķēšanas iekārtas.</p>
-  <div class="cta-band-btns sr sr-d2">
-    <a href="https://bratus.lv/products/plotergriezejs" target="_blank" class="btn-cta-primary">
-      Pirkt internetā
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-        <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
-      </svg>
-    </a>
-    <a href="https://bratus.lv/" target="_blank" class="btn-cta-ghost">Atvērt bratus.lv ↗</a>
-  </div>
-</div>
-
-<footer>
-  <div class="footer-top">
-    <div class="footer-brand">
-      <img src="https://cdn.shopify.com/s/files/1/0720/6325/4803/files/BRATUS_BALTS_LOGO_PNG_31ca2710-d923-44ca-ab97-7d4706e0ce6d.png?v=1764954367" alt="Bratus">
-      <p>Pārdodam CNC iekārtas, nodrošinām apkopi un remontu, sniedzam pakalpojumus.</p>
-    </div>
-    <div class="footer-col">
-      <h5>Iekārtas</h5>
-      <a href="https://bratus.lv/collections/lazeru-lapa">CO2 Lāzeri</a>
-      <a href="https://bratus.lv/collections/cnc-freze">CNC Frēzes</a>
-      <a href="#modeli">Plotergriezēji</a>
-      <a href="https://bratus.lv/pages/markesanas-iekartas">Marķēšana</a>
-    </div>
-    <div class="footer-col">
-      <h5>Kontakti</h5>
-      <a href="tel:+37126325307">+371 26 325 307</a>
-      <a href="tel:+37124424434">+371 24 424 434</a>
-      <a href="mailto:sales@bratus.lv">sales@bratus.lv</a>
-    </div>
-    <div class="footer-col">
-      <h5>Juridiskā info</h5>
-      <p>SIA Bratus</p>
-      <p>Reģ. nr. 40203628316</p>
-      <p>Pliederu iela 22,<br>Ķekava, Ķekavas nov.</p>
+<section class="cta-band">
+  <div class="wrap">
+    <h2>Neesat pārliecināts, kurš platums Jums der?</h2>
+    <p>Pastāstiet, ko plānojat griezt un kādā izmērā. Mēs ieteiksim piemērotāko modeli un atbildēsim uz jautājumiem par pasūtīšanu.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="tel:+37126325307">Zvanīt +371 26 325 307</a>
+      <a class="btn btn-ghost" href="/kontakti/">Rakstīt mums</a>
     </div>
   </div>
-  <div class="footer-bottom">
-    <p>© <span id="yr"></span> SIA <a href="https://bratus.lv" target="_blank">bratus.lv</a>. Visas tiesības aizsargātas.</p>
-    <div class="footer-bottom-right">Šī lapa: <span>ploteri.lv</span></div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h2>Ploteris.lv</h2>
+        <p>Griešanas ploteru pārdošana Latvijā. Lapu uztur SIA Bratus, kas pārdod CNC iekārtas, nodrošina to apkopi un remontu.</p>
+      </div>
+      <div>
+        <h2>Ploteri</h2>
+        <ul><li><a href="/ploteris-71-cm/">Ploteris 71 cm</a></li><li><a href="/ploteris-86-cm/">Ploteris 86 cm</a></li><li><a href="/ploteris-134-cm/">Ploteris 134 cm</a></li><li><a href="/cenas/">Cenas</a></li></ul>
+      </div>
+      <div>
+        <h2>Informācija</h2>
+        <ul>
+          <li><a href="/kas-ir-ploteris/">Kas ir ploteris</a></li>
+          <li><a href="/uzlimju-ploteris/">Pielietojums</a></li>
+          <li><a href="/kontakti/">Kontakti</a></li>
+          <li><a href="https://bratus.lv">Citas iekārtas bratus.lv</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Kontakti</h2>
+        <ul>
+          <li><a href="tel:+37126325307">+371 26 325 307</a></li>
+          <li><a href="tel:+37124424434">+371 24 424 434</a></li>
+          <li><a href="mailto:sales@bratus.lv">sales@bratus.lv</a></li>
+          <li>Pliederu iela 22, Ķekava, Ķekavas nov.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© <span id="yr">2026</span> SIA Bratus · Reģ. nr. 40203628316</div>
   </div>
 </footer>
-
-<script>
-// Gads
-document.getElementById('yr').textContent = new Date().getFullYear();
-
-// Navigācijas caurspīdīgums
-const nav = document.getElementById('main-nav');
-function updateNav() {
-  if (window.scrollY < window.innerHeight * 0.8) {
-    nav.classList.add('over-hero');
-  } else {
-    nav.classList.remove('over-hero');
-  }
-}
-updateNav();
-window.addEventListener('scroll', updateNav, { passive: true });
-
-// Scroll reveal animācijas
-const obs = new IntersectionObserver(entries => {
-  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); obs.unobserve(e.target); } });
-}, { threshold: 0.1 });
-document.querySelectorAll('.sr').forEach(el => obs.observe(el));
-
-// Mobilā izvēlne
-const menuBtn = document.getElementById('mobile-menu-btn');
-const navLinks = document.getElementById('nav-links');
-menuBtn.addEventListener('click', () => navLinks.classList.toggle('open'));
-navLinks.querySelectorAll('a').forEach(link => link.addEventListener('click', () => navLinks.classList.remove('open')));
-
-// Smooth scroll piesaistēm
-document.querySelectorAll('a[href^="#"]').forEach(a => {
-  a.addEventListener('click', e => {
-    const t = document.querySelector(a.getAttribute('href'));
-    if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth' }); }
-  });
-});
-</script>
+<script src="/assets/main.js" defer></script>
 </body>
 </html>
